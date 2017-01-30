@@ -1,0 +1,18 @@
+html,body{
+	height: 100%;
+}
+.section{
+	display: table;
+	vertical-align: middle;
+	height: 50vh;
+	background: #eee;
+	text-align: center;
+	width: 100%;
+}
+.section:nth-child(2n){
+	background: #fff;
+}
+.section-wrap{
+	display: table-cell;
+	vertical-align: middle;
+}

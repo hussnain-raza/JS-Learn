@@ -8,13 +8,11 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <!--<link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+  <link rel="stylesheet" href="style.css?v=1.0"> 
   <script type="text/javascript" src="index.js"></script>
  
   <script type="text/javascript">
   	//display methods are the followings
-  	alert("alert is working")
-  	console.log(5 + 6)
   </script>
 
 
@@ -26,26 +24,47 @@
 
 <body>
 
-<button onclick="getElementById('abc').innerHTML = Date()">Show Date</button>
 
 
-<div id="abc">date place here</div>
+<section class="section">
+	<div class="section-wrap">
+	<button onclick="showText()">Show Text</button>
+	<p>show document wrtite statement</p>
+	</div>
+</section>
 
-<p>Here, a title attribute is added to the <p> element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph:</p>
-<hr>
-<h2>JS Disabled Attrib</h2>
+<section class="section">
+	<div class="section-wrap">
+	<button onclick="getElementById('abc').innerHTML = Date()">Show Date</button>
+	<p id="abc">date place here</p>
+	</div>
+</section>
+
+<section class="section">
+	<div class="section-wrap">
+	<h2>JS Disabled Attrib</h2>
 <button id="button-1" onclick="getElementById('button-2').disabled = true ">disable button</button>
 <button id="button-2" onclick="getElementById('button-1').disabled = true">disable button</button>
+	</div>
+</section>
 
-<hr>
-<h2>Function Test</h2>
-<button onclick="firstFunction()">try js 1st function</button>
-<div id="func-1"></div>
+<section class="section">
+	<div class="section-wrap">
+	<h2>Function Test</h2>
+	<button onclick="firstFunction()">try js 1st function</button>
+	<div id="func-1"></div>
+	</div>
+</section>
 
-<hr>
+<section class="section">
+	<div class="section-wrap">
+	</div>
+</section>
 
-<h2>JS Displays</h2>
-
+<section class="section">
+	<div class="section-wrap">
+	</div>
+</section>
 
 
 
