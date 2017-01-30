@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang = "fr">
 <head>
   <meta charset="utf-8">
 
@@ -8,20 +8,47 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <!--<link rel="stylesheet" href="css/styles.css?v=1.0"> -->
   <script type="text/javascript" src="index.js"></script>
+ 
+  <script type="text/javascript">
+  	//display methods are the followings
+  	alert("alert is working")
+  	console.log(5 + 6)
+  </script>
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
 </head>
 
 <body>
 
-<button onclick="getElementById('demo').innerHTML = Date() + '  Hurraaahhh  '">Show Date</button>
+<button onclick="getElementById('abc').innerHTML = Date()">Show Date</button>
 
-<div id="demo"></div>
 
-<div id="demo1"></div>
+<div id="abc">date place here</div>
+
+<p>Here, a title attribute is added to the <p> element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph:</p>
+<hr>
+<h2>JS Disabled Attrib</h2>
+<button id="button-1" onclick="getElementById('button-2').disabled = true ">disable button</button>
+<button id="button-2" onclick="getElementById('button-1').disabled = true">disable button</button>
+
+<hr>
+<h2>Function Test</h2>
+<button onclick="firstFunction()">try js 1st function</button>
+<div id="func-1"></div>
+
+<hr>
+
+<h2>JS Displays</h2>
+
+
+
+
+
 </body>
 </html>
